@@ -1,8 +1,8 @@
 const VIDEO_ID = 'some-video-id';
 const THUMBNAILS_BY_MILESTONE = Object.fromEntries(
     Array.from({ length: 10 }, (_, i) => {
-        const level = (i + 1);
-        return [level, `${level}.png`];
+        const level = (i + 1) * 1000;
+        return [level, `${i + 1}.png`];
     }),
 );
 
