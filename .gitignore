@@ -1,0 +1,23 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+*.log
+
+# Rollup cache
+.rollup.cache/
+
+# clasp project settings
+.clasp.json
+.classroom.json
+
+# OAuth tokens / secrets
+.tokens.json
+*.credentials.json
+.env
+
+# OS / Editor junk
+.DS_Store
+.vscode/
+.idea/
