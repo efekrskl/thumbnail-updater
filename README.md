@@ -1,3 +1,5 @@
+# YouTube Thumbnail Automator
+
 Automatically updates a YouTube video's thumbnail based on view count milestones using Google Apps Script.
 
 Originally developed for a youtube video for my channel. Here's the video: https://www.youtube.com/watch?v=1rfAGjxN29U
