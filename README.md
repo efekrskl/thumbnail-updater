@@ -7,25 +7,26 @@ Originally developed for a youtube video for my channel. Here's the video: https
 
 ## 🛠 Setup
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-
-2. **Install dependencies**
+1. **Install dependencies**
    ```bash
    npm install
+
+2. **Develop your script**
+   Edit the logic in `src/index.ts`.
 
 3. **Bundle the script**
    ```bash
    npm run build
    ```
 
-4. **Push to Google Apps Script**
+4. **Upload images**
+   Upload your thumbnail images to Google Drive.
+
+5. **Push to Google Apps Script**
    Use [Clasp](https://github.com/google/clasp) to deploy:
    ```bash
    npx clasp push
    ```
 
-5. **Set up Triggers**
+6. **Set up Triggers**
    Use the Apps Script UI to create a trigger for `checkAndUpdateThumbnail`.
