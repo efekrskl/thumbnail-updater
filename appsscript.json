@@ -6,6 +6,11 @@
         "userSymbol": "YouTube",
         "version": "v3",
         "serviceId": "youtube"
+      },
+      {
+        "userSymbol": "Drive",
+        "version": "v3",
+        "serviceId": "drive"
       }
     ]
   },
